@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_GenerateBill_Null_Failure</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_UserNotFound</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_ListOfPaidAndUnpaidBillsNotFound</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_ListBillsByDueDate_NotFound</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_RegisterNewUser_Null_Failure</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_ListBillsByDueDate</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_RegisterNewUser</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_ListOfPaidAndUnpaidBills</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>functionTestFor_ValidUserFound</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionallTestFor_GenerateBill_Success</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_ValidUserNameLengthAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_ValidUserNameAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_BillDueDateAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_BillDateOfEntryAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_BillTitleAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_BillAmountAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_ValidPasswordLengthAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_ValidUserEmailAsync</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+</test-cases>

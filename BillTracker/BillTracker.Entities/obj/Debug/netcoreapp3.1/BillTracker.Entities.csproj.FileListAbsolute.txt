@@ -1,0 +1,5 @@
+F:\f\varsha_Kone\IIHT\CaseStudy\Revised\FSEPA\CodeSolution\BillTracker\BillTracker.Entities\bin\Debug\netcoreapp3.1\BillTracker.Entities.deps.json
+F:\f\varsha_Kone\IIHT\CaseStudy\Revised\FSEPA\CodeSolution\BillTracker\BillTracker.Entities\bin\Debug\netcoreapp3.1\BillTracker.Entities.dll
+F:\f\varsha_Kone\IIHT\CaseStudy\Revised\FSEPA\CodeSolution\BillTracker\BillTracker.Entities\obj\Debug\netcoreapp3.1\BillTracker.Entities.csprojAssemblyReference.cache
+F:\f\varsha_Kone\IIHT\CaseStudy\Revised\FSEPA\CodeSolution\BillTracker\BillTracker.Entities\obj\Debug\netcoreapp3.1\BillTracker.Entities.AssemblyInfoInputs.cache
+F:\f\varsha_Kone\IIHT\CaseStudy\Revised\FSEPA\CodeSolution\BillTracker\BillTracker.Entities\obj\Debug\netcoreapp3.1\BillTracker.Entities.AssemblyInfo.cs
