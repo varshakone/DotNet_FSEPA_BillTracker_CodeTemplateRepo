@@ -88,7 +88,7 @@ namespace BillTracker.Test.Bill.TestCases
                 HttpContent content = new StringContent(JsonConvert.SerializeObject(_bill), Encoding.UTF8, "application/json");
                
                 String billResponse = string.Empty;
-                HttpResponseMessage response = await _client.PostAsync("https://localhost:9090/api/Bill/GenerateBill", content) ;
+                HttpResponseMessage response = await _client.PostAsync("http://localhost:9090/api/Bill/GenerateBill", content) ;
                 var status = response.EnsureSuccessStatusCode();
 
                 bool bills = false;
@@ -167,7 +167,7 @@ namespace BillTracker.Test.Bill.TestCases
 
                 //Act 
               List<BillDetails> getbillList =null ;
-                HttpResponseMessage response = await _client.GetAsync("https://localhost:9090/api/Bill/AllBills");
+                HttpResponseMessage response = await _client.GetAsync("http://localhost:9090/api/Bill/AllBills");
                 var status = response.EnsureSuccessStatusCode();
 
                 if (status.IsSuccessStatusCode)
@@ -247,7 +247,7 @@ namespace BillTracker.Test.Bill.TestCases
                 HttpContent content = new StringContent(JsonConvert.SerializeObject(duedate), Encoding.UTF8, "application/json");
                 //Act 
                 List<BillDetails> getbillList = null;
-                HttpResponseMessage response = await _client.GetAsync("https://localhost:9090/api/Bill/BillByDueDate?duedate="+_bill.DueDate.ToString());
+                HttpResponseMessage response = await _client.GetAsync("http://localhost:9090/api/Bill/BillByDueDate?duedate="+_bill.DueDate.ToString());
 
                 var status = response.EnsureSuccessStatusCode();
 
@@ -324,7 +324,7 @@ namespace BillTracker.Test.Bill.TestCases
                 HttpContent content = new StringContent(JsonConvert.SerializeObject(_user), Encoding.UTF8, "application/json");
                 //Act 
                 String userResponse = string.Empty;
-                HttpResponseMessage response = await _client.PostAsync("https://localhost:9090/api/User/NewUser", content);
+                HttpResponseMessage response = await _client.PostAsync("http://localhost:9090/api/User/NewUser", content);
                 var status = response.EnsureSuccessStatusCode();
 
                 if (status.IsSuccessStatusCode)
@@ -403,7 +403,7 @@ namespace BillTracker.Test.Bill.TestCases
                 HttpContent content = new StringContent(JsonConvert.SerializeObject(userCredentials), Encoding.UTF8, "application/json");
                 //Act 
                 User userResponse = null;
-                HttpResponseMessage response = await _client.PostAsync("https://localhost:9090/api/User/ValidateUser", content);
+                HttpResponseMessage response = await _client.PostAsync("http://localhost:9090/api/User/ValidateUser", content);
                 var status = response.EnsureSuccessStatusCode();
 
                 if (status.IsSuccessStatusCode)
